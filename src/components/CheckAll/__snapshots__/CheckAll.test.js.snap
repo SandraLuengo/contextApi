@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CheckAll component renders correctly 1`] = `
+<div
+  className="test"
+>
+  <input
+    className="checkBox"
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <p
+    className="numberItems"
+  >
+    659
+     items
+  </p>
+</div>
+`;

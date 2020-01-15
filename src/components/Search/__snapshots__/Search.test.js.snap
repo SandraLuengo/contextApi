@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search component renders correctly 1`] = `
+<div
+  className="test"
+>
+  <div
+    className="search"
+  >
+    <i
+      className="fas fa-search search__icon"
+    />
+    <input
+      className="search__input"
+      onChange={[Function]}
+      placeholder="Search by name"
+    />
+  </div>
+</div>
+`;

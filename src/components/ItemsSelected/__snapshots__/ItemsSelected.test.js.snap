@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ItemsSelected component renders correctly 1`] = `
+<div
+  className="sc-htoDjs bJacJk test"
+>
+  <div
+    className="sc-ifAKCX euQgUr"
+  >
+    <p
+      className="itemsNumber"
+    >
+      0
+       items
+    </p>
+    <p
+      className="clear"
+      onClick={[Function]}
+    >
+      CLEAR
+    </p>
+  </div>
+  <div
+    className="itemsSelected"
+  />
+</div>
+`;

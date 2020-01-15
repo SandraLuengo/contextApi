@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SelectedController component renders correctly 1`] = `
+<div
+  className="test"
+>
+  <p
+    className="itemsNumber"
+  >
+    0
+     items
+  </p>
+  <p
+    className="clear"
+    onClick={[Function]}
+  >
+    CLEAR
+  </p>
+</div>
+`;

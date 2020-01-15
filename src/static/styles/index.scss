@@ -1,0 +1,52 @@
+
+$primaryColor:#82a5cd;
+
+
+html, body {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  overflow:hidden; 
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color:#434343;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.checkBox {
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 1.3px solid $primaryColor;
+  outline: none;
+  &:hover {
+    cursor:  pointer;
+    border-color: #4d8dd6;
+    transition: border-color .3s ease-in-out;
+
+  }
+}
+.checkBox:checked {
+  background: $primaryColor;
+  border: 1.3px solid $primaryColor;
+  outline: none;
+}
+
+.checkBox:checked:after {
+  content: "✓";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+}
